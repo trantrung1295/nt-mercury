@@ -1,5 +1,5 @@
 <?php
-namespace NtMercury;
+namespace Shopify;
 class SayHello
 {
     public static function world()

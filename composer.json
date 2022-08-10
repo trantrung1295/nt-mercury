@@ -1,5 +1,5 @@
 {
-    "name": "ntmercury",
+    "name": "trantrung1295/nt-mercury",
     "description": "the first composer package",
     "type": "php",
     "license": "MIT",
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "NtMercury\\": "src/"
+            "Shopify\\": "src/Shopify/"
         }
     }
 }
