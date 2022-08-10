@@ -1,5 +1,5 @@
 {
-    "name": "nt-mercury",
+    "name": "ntmercury",
     "description": "the first composer package",
     "type": "php",
     "license": "MIT",
@@ -14,8 +14,8 @@
         "php": ">=5.3.0"
     },
     "autoload": {
-        "classmap": [
-            "src/"
-        ]
+        "psr-4": {
+            "NtMercury\\": "src/"
+        }
     }
 }
