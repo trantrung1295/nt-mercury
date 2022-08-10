@@ -1,0 +1,21 @@
+{
+    "name": "nt-mercury",
+    "description": "the first composer package",
+    "type": "php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tran Trung",
+            "email": "trantrung121995@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    }
+}
